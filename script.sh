@@ -51,11 +51,11 @@ if [ ! -f "spigot.yml" ]; then
 fi
 
 if [ ! -f "config/paper-global.yml" ]; then
-    curl -o paper-global.yml https://raw.githubusercontent.com/pyrohost/optimized-minecraft-egg/main/configs/paper-global.yml
+    curl -o config/paper-global.yml https://raw.githubusercontent.com/pyrohost/optimized-minecraft-egg/main/configs/paper-global.yml
 fi
 
 if [ ! -f "config/paper-world-defaults.yml" ]; then
-    curl -o paper-world-defaults.yml https://raw.githubusercontent.com/pyrohost/optimized-minecraft-egg/main/configs/paper-world-defaults.yml
+    curl -o config/paper-world-defaults.yml https://raw.githubusercontent.com/pyrohost/optimized-minecraft-egg/main/configs/paper-world-defaults.yml
 fi
 
 if [ ! -f "pufferfish.yml" ]; then
