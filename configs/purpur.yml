@@ -128,7 +128,7 @@ settings:
     suppress-setblock-in-far-chunk-errors: false
     suppress-library-loader: false
   tps-catchup: true
-  server-mod-name: Purpur
+  server-mod-name: Pyro
   clamp-attributes: true
   use-alternate-keepalive: true
   fix-projectile-looting-transfer: false
